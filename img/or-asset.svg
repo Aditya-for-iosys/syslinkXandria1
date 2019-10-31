@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="140" viewBox="0 0 23 140">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF" font-family="OpenSans-Semibold, Open Sans" font-size="16" font-weight="500" transform="translate(-5)">
+            <tspan x="4.59" y="73">OR</tspan>
+        </text>
+        <path stroke="#FFF" d="M11.5 100v40M11.5 0v40" opacity=".5"/>
+    </g>
+</svg>
