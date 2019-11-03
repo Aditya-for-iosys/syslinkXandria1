@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+body{
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    background-color: #3a539c;
+}
+.wrapper{
+    /* width: 1024px; */
+    max-width: 1024px;   /* 1024*/
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    box-sizing:border-box;
+}
+.hero_section{
+    background-image: url(../img/syslink-pricing-hero-desktopsmall.png);
+    background-repeat: no-repeat;
+    width: auto;
+    object-fit: contain;
+    background-size: cover;
+}
+.brand_logo{
+  padding-top: 30px;
+  margin-left: 26px;
+}
+.sys-xandria-logo {
+    width: 210px;
+    height: 48px;
+    object-fit: contain;
+}
+.hero_content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.side_one{
+    color: white;
+    max-width:461px;
+}
+.side_one .class_ul{
+    max-width: 421px;
+    margin: 0 auto;
+}
+.lists{
+  display: flex;
+}
+.side_one .class_ul .lists img.checkmark-dark{
+  margin-top: -22px;
+  margin-right: 20px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+.side_two{
+    width: 461px;
+    box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.side_two_wrapper{
+    max-width: 365px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 29px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3a539c;
+    margin-top: 40px;
+  }
+  form{
+      margin: 40px 0;
+  }
+  form .form_child_1{
+    max-width: 170px;
+    width: 100%;
+    padding: 10px 20px 9px 10px;
+    margin: 8px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  form :nth-child(2){
+    max-width: 170px;
+    width: 100%;
+    padding: 10px 20px 9px 10px;
+    margin: 8px 0px 20px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=email]{
+    max-width: 365px;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    margin: 24px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  form :nth-child(4){
+    max-width: 365px;
+    width: 100%;
+    padding: 10px 20px 10px 4px;
+    margin: 24px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  option{
+    max-width: 365px;
+    width: 100%;
+  }
+  form :nth-child(5){
+    max-width: 365px;
+    width: 100%;
+    padding: 10px 20px 10px 4px;
+    margin: 24px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  form .by-submitting-this-f {
+    max-width: 365px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  form .by-submitting-this-f .this{
+    text-decoration: underline;
+    color: #505050;
+  }
+  .submit {
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ff8a46 0%, #db4113 100%);
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 14px 70px;
+    display: block;
+    margin: 24px auto;
+  }
+  .hero_bottom_content{
+    display: flex;
+    margin: 120px auto 0px auto;
+    padding-bottom: 60px;
+  }
+  .performance{
+    max-width: 461px;
+    width: 100%;
+    margin: 0 auto;
+  }
+ h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .sign-up-to-see-Sysli {
+    max-width: 300px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 8px auto;
+  }
+  .ready_to_talk{
+    max-width: 461px;
+    width: 100%;
+    margin: 0 auto;
+  } 
+  h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  .watch-a-15-minute-re {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 8px auto;
+  }
+  .body_section_one {
+    width: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+  }
+  .body_section_one_content{
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    max-width: 944px;
+  }
+  .logo-placeholder {
+    object-fit: contain;
+    max-width: 384px;
+  }
+  .section_content{
+    max-width: 540px;
+  }
+  .xandria-prevented-t {
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.76;
+    letter-spacing: normal;
+    color: #505050;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .belz-Koch-head-of-S {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 12px;
+  }
+  .belz-Koch-head-of-S .text-style-1 {
+    font-weight: 600;
+  }
+  .body_section_two {
+    width: auto;
+    /* height: 570px; */
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section_two_inside_content{
+    padding-top:100px;
+    padding-bottom: 80px;
+  }
+  h5{
+    max-width: 944px;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+  }
+  .multiple_logo_1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+  .multiple_logo_1  .div_logo , .multiple_logo_2  .div_logo{
+    max-width: 200px;
+    text-align: center;
+  }
+  .multiple_logo_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .multiple_logo_2 .div_logo .velocity-logo-bw{
+    margin: 32px 20px 0px 20px;
+    max-width: 160px;
+  }
+  .multiple_logo_2 .div_logo .strauss-logo-bw{
+    margin: 2px 30px 10px 30px;
+    max-width: 130px;
+  }
+  .body_section_three{
+    background-image: url(../img/bofu-background-desktopsmall.png);
+    background-repeat: no-repeat;
+    width: auto;
+    object-fit: contain;
+    background-size: cover;
+  }
+  .blue_content{
+    margin: 0 auto;
+    text-align: center;
+    padding: 123px 0 123px 0;
+  }
+  .dont-spend-another {
+    /* width: 736px; */
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .watch-a-recorded-dem {
+    /* width: 736px; */
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 16px auto 0 auto;
+  }
+  .blue_content a .button_watch_demo {
+    /* max-width: 246px; */
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ff8a46 0%, #db4113 100%);
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 14px 40px;
+    border: none;
+    margin: 24px auto 0 auto;
+    cursor: pointer;
+  }
+  a .button_watch_demo {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footer {
+    width: auto;
+    height: 186px;
+    background-color: #da4012;
+    
+  }
+  .footer_content{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .footer_content .f_child_one{
+    opacity: .7;
+  }
+  .footer_content .f_child_two{
+    margin: 0 20px;
+  }
+  .footer_content .f_child_privacy a {
+    text-decoration: none;
+    color: white;
+  }
+  @media all and (min-width:320px) and (max-width:768px){
+
+  }
